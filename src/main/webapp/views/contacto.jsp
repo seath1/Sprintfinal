@@ -33,13 +33,13 @@
 <br/>
 <br/>
 <div class="contacto">
-    <form name="miformulario" id="miformulario" method="get">
+    <form action = "contacto"  name="miformulario" id="miformulario" method="post">
         Nombre:
         <input
                 type="text"
                 name="nombre"
                 id="nombre"
-                maxlength="30"
+                maxlength="50"
                 required
         />
         <br/>
@@ -48,7 +48,7 @@
         Email:
         <input
                 type="email"
-                name="miemail"
+                name="miEmail"
                 id="miemail"
                 maxlength="40"
                 required
@@ -59,7 +59,7 @@
         Mensaje:
         <input
                 type="text"
-                name="Mensaje"
+                name="mensaje"
                 id="mensaje"
                 maxlength="200"
                 required
