@@ -7,11 +7,16 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 @WebServlet(name = "ContactoServlet", value = "/contacto")
 public class ContactoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+
         getServletContext().getRequestDispatcher("/views/contacto.jsp").forward(request, response);
 
     }

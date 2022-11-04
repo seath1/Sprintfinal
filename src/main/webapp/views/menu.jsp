@@ -50,6 +50,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contacto">Contacto</a>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="ListaContactoServlet">Lista Contactos</a>
+            </li>
             </ul>
         </div>
     </nav>

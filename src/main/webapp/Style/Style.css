@@ -13,7 +13,7 @@ body {
     background-image: url("https://fondosmil.com/fondo/7687.png");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(9px);
     width: 100%;
     margin-bottom: 100%;
     padding: 0%;
@@ -120,6 +120,13 @@ a{
     border-radius: 1rem;
     color: aliceblue;
 }
+
+#button2{
+    width: 4rem;
+    background-color: rgb(99, 99, 99);
+    border-radius: 1rem;
+    color: aliceblue;
+}
 .separador{
     size: 3rem;
     width: 1%;
@@ -138,3 +145,4 @@ button{
 .card-body{
     background-color: rgba(214, 176, 208, 0.123);
 }
+
